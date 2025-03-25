@@ -1,0 +1,8 @@
+🔥 Summary (Quick Cheatsheet) for more details search EJS TAGS in google
+
+Tag	Usage	Example
+<%= %>	Print value (escaped)	<%= name %>
+<%- %>	Print raw HTML	<%- "<b>Bold</b>" %>
+<% %>	Run JavaScript (No output)	<% if(user) { %> ... <% } %>
+<%# %>	Comment (Ignored in HTML)	<%# This is a comment %>
+<%- include('file') %>	Include another EJS file	<%- include('header') %>
